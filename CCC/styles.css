@@ -1,0 +1,105 @@
+body {
+	background-color: rgb(189, 201, 209);
+	background-attachment: fixed;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.main-container {
+	width: 100%;
+	max-width: 650px;
+}
+
+.card {
+	background-color: rgb(189, 201, 209);
+	padding: 30px;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: scale(1.02);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.profile-img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto 15px auto;
+	border: 4px solid rgb(124, 149, 161);
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.8rem;
+}
+
+h2 {
+	color: #333;
+	background-color: rgb(124, 149, 161); 
+	padding: 10px 20px;
+	border-radius: 25px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto 20px auto;
+	
+	font-size: 1.2rem;
+	border: none;
+}
+.card {
+	background-color: white;
+	padding: 30px;
+	margin-bottom: 35px;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	
+	text-align: center; 
+}
+
+p, li {
+	color: #555;
+	line-height: 1.6;
+}
+
+.contact-info {
+	text-align: left;
+	font-size: 0.95rem;
+}
+
+.contact-info b {
+	color: #333;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+.card-rosa-estatica {
+	background-color: rgb(240, 244, 247); /* El color rosita de tu encabezado */
+	padding: 30px;
+	margin-bottom: 25px;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+	transition: none; /* Asegura que no haya transiciones */
+}
+
+.card-rosa-estatica:hover {
+	transform: none;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.habilidades-resaltadas {
+	background-color: rgb(124, 149, 161);
+	border-left: 5px solid #f1b0b7;
+}
